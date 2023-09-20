@@ -14,6 +14,7 @@ Technologies used in the project:
 
 ![React-Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&amp;logo=react-router&amp;logoColor=white)
 
+
 ## 💻 Screenshots
 
 **DASHBOARD**
@@ -24,8 +25,8 @@ Technologies used in the project:
 
 ## ✨ Features 
 - Dynamic Data
-- Seperte Components
-- Search Funtionality
+- Separate Components
+- Search Functionality
 - Admin user management Dashboard
 - Dynamic Graphs
 
@@ -38,7 +39,7 @@ Technologies used in the project:
 #-dashboard
  -admin
  -category
- -disbural
+ -disbursal
  - overview
  - payment
  - status
@@ -46,7 +47,7 @@ Technologies used in the project:
 
 ## 🚀 Demo
 **Front-end deployed URL:**
--- Frontend is sucessfully deployed on vercel--
+-- Frontend is successfully deployed on Vercel--
 
 
 
@@ -80,7 +81,7 @@ $ yarn # or npm i               // npm install packages
 $ npm run start                // run it locally
 
 // deployment for client app
-$ npm run build  // this will compile the react code using webpack and generate a folder called docs in the root level
+$ npm run build  // this will compile the react code using Webpack and generate a folder called docs in the root level
 ````  
 
 ## ✍ Contributor
