@@ -79,7 +79,7 @@ Technologies used in the project:
 
 Clone the project
 ```bash
-git clone
+git clone https://github.com/anki2001ta/Edviron-Frontend.git
 ```
 ## Client-side usage
 
@@ -91,7 +91,7 @@ $ yarn # or npm i               // npm install packages
 $ npm run start                // run it locally
 
 // deployment for client app
-$ npm run build  // this will compile the react code using Webpack and generate a folder called docs in the root level
+$ npm run build  //This will compile the react code using Webpack and generate a folder called docs in the root level
 ````  
 
 ## ✍ Contributor
