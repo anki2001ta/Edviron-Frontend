@@ -1,0 +1,29 @@
+.disbural-container {
+    width: 55%;
+    background-color: #ffffff;
+    margin: 20px 20px 15px 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.disbural-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px
+}
+
+.disbural-status {
+    display: flex;
+    align-items: center
+}
+
+.disbural-status span img {
+    width: 15px;
+    margin-right: 5px
+}
+
+@media (max-width: 1220px) {
+
+    .disbural-container {
+        width: 100%;
+    }
+}
