@@ -1,8 +1,8 @@
-<h1 align="center" id="title">
+<h1 align="center" id="title" >
  EDVIRON DASHBOARD
 </h1>
 
-Edviron is a platform that collects fees from students on behalf of schools
+<h2 align="center" >Edviron is a platform that collects fees from students on behalf of schools</h1>
 
 ## 🛠 Built with 
 
