@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">
+EDVIRON DASHBOARD
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Edviron is a platform that collects fees from students on behalf of schools.</h3>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 🛠 Built with 
+Technologies used in the project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB)
 
-### `npm test`
+![React-Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&amp;logo=react-router&amp;logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Screenshots
 
-### `npm run eject`
+**ADMIN DASHBOARD:**
+![Screenshot (533)](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/42812158-bc0b-4483-a16b-daef8d6de6cd)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**MOBILE VIEW**
+![WhatsApp Image 2023-09-20 at 11 34 45 AM](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/cf249b5f-cd57-4a7e-9a2b-4350d748fff9)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✨ Features 
+- Dynamic Data and Content
+- Dynamic Charts
+- Separate Sections and Components maintained
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Folders
+/src
+- Components
+- Assets
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Components
+- Dashboard
+  -admin
+  -category
+  -overview
+  -disbural
+  -payment
+  -status
 
-### Analyzing the Bundle Size
+   
+- Sidebar
+- sidebar ( default and mini sidebar)
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🚀 Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Front-end deployed URL:**
+- https://edviron-frontend-aeg8-o2xkv5okl-anki2001ta.vercel.app/
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+##  📁 Folder structure
+- #### `public` - This holds all of our static files
+- #### `src`
+    - #### `Resources` - This folder holds assets such as images, docs, and fonts
+    - #### `components` - This folder holds all of the different components that will make up our pages
+    - #### `pages` - These represent a unique page on the website i.e. Home or About. 
+    - #### `App.js` - This is what renders all of our browser routes and different pages
+    - #### `index.js` - This is what renders the react app by rendering App.js.
+- #### `package.json` - Defines npm behaviors and packages for the client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### `.gitignore` - Tells git which files to ignore
+#### `README` - This file!
 
-### `npm run build` fails to minify
+# Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the project
+```bash
+git clone https://github.com/anki2001ta/Edviron-Frontend.git
+```
+## Client-side usage
+
+Go to the project directory
+
+```bash
+$ cd edviron-frontend       // go to client folder
+$ yarn # or npm i               // npm install packages
+$ npm run start                // run it locally
+
+// deployment for client app
+$ npm run build  //This will compile the react code using Webpack and generate a folder called docs in the root level
+````  
+
+## ✍ Contributors
+- [@anki2001ta](https://github.com/anki2001ta)
+
+##
+
+
+
+
