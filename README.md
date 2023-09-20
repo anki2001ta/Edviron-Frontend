@@ -20,20 +20,29 @@ Technologies used in the project:
 **DASHBOARD**
 ![Screenshot (533)](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/7bc507df-e9f9-49a1-8531-7b2730bfd709)
 
+
+
+
 **MOBILE VIEW**
 ![WhatsApp Image 2023-09-20 at 11 34 45 AM](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/7bcdd0f2-323f-48b1-8866-7418b12f464a)
 
-## ✨ Features 
+
+
+
+##3 ✨ Features ##
+
 - Dynamic Data
 - Separate Components
 - Search Functionality
 - Admin user management Dashboard
 - Dynamic Graphs
 
+
 ## Folders
 - /src
 - assets
 - Components
+
   
 ##Components
 #-dashboard
@@ -44,6 +53,7 @@ Technologies used in the project:
  - payment
  - status
 #-sidebar
+
 
 ## 🚀 Demo
 **Front-end deployed URL:**
