@@ -1,24 +1,42 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
+import axios from 'axios';
 import PieChart from './PieChart'
 
 import './style.css'
 //This is the dynamic payment component using pie charts.
-// Harshit tumko ye jo Admin ka array of obj banaya hai uski jagha api call krna using useState and effect and karne ke baad comment hatadena ui meh kuch change ni hoga
+
 const Payment = () => {
-    const data = [
-        {
-            label: "Online",
-            value: 63
-        },
-        {
-            label: "Cash",
-            value: 25
-        },
-        {
-            label: "Cheque",
-            value: 11
-        },
-    ];
+    // const data = [
+    //     {
+    //         label: "Online",
+    //         value: 63
+    //     },
+    //     {
+    //         label: "Cash",
+    //         value: 25
+    //     },
+    //     {
+    //         label: "Cheque",
+    //         value: 11
+    //     },
+    // ];
+
+    const [data, setdata]= useState([]);
+    const getpercentage = async () => {
+        try {
+          await axios
+            .get('https://ill-red-dress.cyclic.cloud/getpercentage')
+            .then((response) => setdata(response.data));
+        } catch (error) {
+          console.log(error);
+        }
+      };
+    
+      useEffect(() => {
+        getpercentage();
+      }, []);
+
+
 
     const className = ["first", "second", "third"];
 

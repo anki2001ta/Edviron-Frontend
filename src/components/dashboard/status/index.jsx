@@ -1,8 +1,42 @@
-import React from 'react';
+import React, { useState ,useEffect} from 'react';
+import axios from 'axios';
 
 import './style.css';
 
-const Status = () => (
+const Status = () => {
+
+    let [totalcollection, settotalcollection]= useState();
+    const [defaultstudents, setdefaultstudents]= useState();
+
+    const gettotalcollection = async () => {
+        try {
+          await axios
+            .get('https://ill-red-dress.cyclic.cloud/gettotalamount')
+            .then((response) => settotalcollection(response.data));
+        } catch (error) {
+          console.log(error);
+        }
+      };
+
+      const getdefaulterstudents = async () => {
+        try {
+          await axios
+            .get('https://ill-red-dress.cyclic.cloud/getdefaulter')
+            .then((response) => setdefaultstudents(response.data));
+        } catch (error) {
+          console.log(error);
+        }
+      };
+      
+    
+      useEffect(() => {
+        gettotalcollection();
+        getdefaulterstudents();
+      }, []);
+
+ 
+
+return (
     <div className="earning-section">
 
         <div className="earn-item first">
@@ -13,7 +47,7 @@ const Status = () => (
 
             <div className="item-content">
                 <span className="item-type">Collection till date</span>
-                <h2 className='item-title'>₹5.34Cr</h2>
+                <h2 className='item-title'>{totalcollection}Cr</h2>
                 <div className='item-status'>
 
                     <span className="fa fa-arrow-up status"></span>
@@ -47,7 +81,7 @@ const Status = () => (
             <div className="item-content">
                 <span className="item-type">Defaulters</span>
                 <div style={{ display: "flex", alignItems: "center" }}>
-                    <h2 className='item-title'>11</h2>
+                    <h2 className='item-title'>{defaultstudents}</h2>
                     <span style={{ fontSize: "0.8rem", marginLeft: "5px" }}> / 1,049 Students</span>
                 </div>
                 <div className='item-status'>
@@ -61,6 +95,7 @@ const Status = () => (
         </div>
 
     </div>
-)
+);
+};
 
 export default Status;

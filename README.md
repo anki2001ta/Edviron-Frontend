@@ -1,103 +1,70 @@
-<h1 align="center" id="title" >
- EDVIRON DASHBOARD
-</h1>
+# Getting Started with Create React App
 
-<h2 align="center" >Edviron is a platform that collects fees from students on behalf of schools</h1>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🛠 Built with 
+## Available Scripts
 
-Technologies used in the project:
+In the project directory, you can run:
 
-![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E)
+### `npm start`
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![React-Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&amp;logo=react-router&amp;logoColor=white)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## 💻 Screenshots
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**DASHBOARD**
-![Screenshot (533)](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/7bc507df-e9f9-49a1-8531-7b2730bfd709)
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**MOBILE VIEW**
-![WhatsApp Image 2023-09-20 at 11 34 45 AM](https://github.com/anki2001ta/Edviron-Frontend/assets/107462155/7bcdd0f2-323f-48b1-8866-7418b12f464a)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-##3 ✨ Features ##
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Dynamic Data
-- Separate Components
-- Search Functionality
-- Admin user management Dashboard
-- Dynamic Graphs
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Folders
-- /src
-- assets
-- Components
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-  
-##Components
-#-dashboard
- -admin
- -category
- -disbursal
- - overview
- - payment
- - status
-#-sidebar
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 🚀 Demo
-**Front-end deployed URL:**
--- Frontend is successfully deployed on Vercel--
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-##  📁 Folder structure
-- #### `public` - This holds all of our static files
-- #### `src`
-    - #### `Resources` - This folder holds assets such as images, docs, and fonts
-    - #### `components` - This folder holds all of the different components that will make up our pages
-    - #### `pages` - These represent a unique page on the website i.e. Home or About. 
-  for global state management of our app.
-    - #### `App.js` - This is what renders all of our browser routes and different pages
-    - #### `index.js` - This is what renders the react app by rendering App.js.
-- #### `package.json` - Defines npm behaviors and packages for the client
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-#### `.gitignore` - Tells git which files to ignore
-#### `README` - This file!
+### Advanced Configuration
 
-# Installation
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Clone the project
-```bash
-git clone https://github.com/anki2001ta/Edviron-Frontend.git
-```
-## Client-side usage
+### Deployment
 
-Go to the project directory
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-```bash
-$ cd  Edviron-Frontend     // go to client folder
-$ yarn # or npm i               // npm install packages
-$ npm run start                // run it locally
+### `npm run build` fails to minify
 
-// deployment for client app
-$ npm run build  //This will compile the react code using Webpack and generate a folder called docs in the root level
-````  
-
-## ✍ Contributor
-- [@anki2001ta](https://github.com/anki2001ta)
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
