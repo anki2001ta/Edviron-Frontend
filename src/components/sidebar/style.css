@@ -1,0 +1,100 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 35px;
+    z-index: 100;
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-logo .logo-img {
+    width: 40px;
+}
+
+.sidebar-logo .main-title {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 2rem;
+}
+
+.sidebar-logo .version {
+    font-size: 1rem;
+}
+
+.sidebar {
+    margin-top: 50px;
+}
+
+.nav-item {
+    margin: 10px 0px;
+    padding: 12px 0 12px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar .selected {
+    background-color: #5932EA;
+}
+
+.selected .nav-link {
+    color: white;
+}
+
+.nav-item-img {
+    width: 30px;
+}
+
+.nav-link {
+    padding-left: 10px;
+    color: #9197B3;
+    text-transform: capitalize;
+}
+
+.user-profile {
+    margin-top: 280px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user-name {
+    font-size: 1rem;
+}
+
+.user-role {
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+.avatar-img {
+    width: 50px
+}
+
+@media(max-width: 996px) {
+    .sidebar-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sidebar-logo {
+        justify-content: center;
+    }
+
+    .user-profile {
+        justify-content: center;
+    }
+}
