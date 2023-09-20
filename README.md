@@ -79,7 +79,7 @@ Technologies used in the project:
 
 Clone the project
 ```bash
-git clone https://github.com/anki2001ta/pets_and_care.git
+git clone
 ```
 ## Client-side usage
 
