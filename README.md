@@ -62,6 +62,9 @@ Technologies used in the project:
 **Front-end deployed URL:**
 - https://edviron-frontend-aeg8-o2xkv5okl-anki2001ta.vercel.app/
 
+**Back-end deployed URL:**
+- https://ill-red-dress.cyclic.cloud/
+
 
 
 ##  📁 Folder structure
