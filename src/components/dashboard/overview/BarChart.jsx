@@ -1,7 +1,6 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 // This is the Dynamic Barchart Component
-// Harshit tumko ye jo Admin ka array of obj banaya hai uski jagha api call krna using useState and effect and karne ke baad comment hatadena ui meh kuch change ni hoga
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -59,14 +58,13 @@ export function BarChart() {
       ? 8
       : 4
   );
-  const[monthlydata, setmonthlydata] = useState([]);
+  const [monthlydata, setmonthlydata] = useState([]);
 
   const getmonthlydata = async () => {
     try {
       await axios
-        .get('https://ill-red-dress.cyclic.cloud/getmonthtotal')
-        .then((response) =>
-        setmonthlydata(response.data.months));
+        .get("https://ill-red-dress.cyclic.cloud/getmonthtotal")
+        .then((response) => setmonthlydata(response.data.months));
     } catch (error) {
       console.log(error);
     }

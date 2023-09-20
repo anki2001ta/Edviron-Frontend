@@ -1,50 +1,48 @@
 .tab-section {
-    margin-top: 20px;
-    display: flex;
+  margin-top: 20px;
+  display: flex;
 }
 
 .tab-item {
-    padding: 10px 20px;
-    border-radius: 15px;
-    width: 25%;
-    background-color: #ffffff;
-    margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 25%;
+  background-color: #ffffff;
+  margin: 0 20px;
 }
 
 .category-title {
-    color: #ACACAC;
-    font-size: "0.9rem";
+  color: #acacac;
+  font-size: "0.9rem";
 }
 
 .category-desc {
-    font-size: "1.5rem";
-    margin: "0";
-    font-weight: "800"
+  font-size: "1.5rem";
+  margin: "0";
+  font-weight: "800";
 }
 
 .category-desc span {
-    font-size: "0.8rem";
-    padding-left: "1rem"
+  font-size: "0.8rem";
+  padding-left: "1rem";
 }
 
-@media(max-width: 1400px) {
+@media (max-width: 1400px) {
+  .tab-section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-
-    .tab-section {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .tab-item {
-        width: 40%;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+  .tab-item {
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 768px) {
-    .tab-item {
-        padding-left: 40px;
-        width: 100%;
-    }
+  .tab-item {
+    padding-left: 40px;
+    width: 100%;
+  }
 }

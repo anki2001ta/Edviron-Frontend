@@ -23,21 +23,20 @@ const Admin = () => {
   const [admins, setadmins] = useState([]);
   const getadmins = async () => {
     try {
-      const response = await axios.get('https://ill-red-dress.cyclic.cloud/getadmins');
+      const response = await axios.get(
+        "https://ill-red-dress.cyclic.cloud/getadmins"
+      );
       console.log(response, "success");
       setadmins(response.data.admins);
     } catch (error) {
       console.error("Error:", error); // Log the error for debugging
     }
   };
-  
+
   useEffect(() => {
     getadmins();
   }, []);
-  
 
-
-  
   // console.log(admins);
   return (
     <div className="admin-container">

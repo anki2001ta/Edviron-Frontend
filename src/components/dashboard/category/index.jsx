@@ -7,12 +7,12 @@ const Category = () => {
   const [students, setstudents] = useState([]);
 
   const [collection, setcollection] = useState();
-  const [fineamount, setfineamount]= useState();
+  const [fineamount, setfineamount] = useState();
 
   const getstudents = async () => {
     try {
       await axios
-        .get('https://ill-red-dress.cyclic.cloud/students')
+        .get("https://ill-red-dress.cyclic.cloud/students")
         .then((response) => setstudents(response.data.students));
     } catch (error) {
       console.log(error);
@@ -22,7 +22,7 @@ const Category = () => {
   const getcollectionsinmonth = async () => {
     try {
       await axios
-        .get('https://ill-red-dress.cyclic.cloud/getmonthtotal')
+        .get("https://ill-red-dress.cyclic.cloud/getmonthtotal")
         .then((response) => setcollection(response.data.totals));
     } catch (error) {
       console.log(error);
@@ -32,13 +32,12 @@ const Category = () => {
   const getfineamount = async () => {
     try {
       await axios
-        .get('https://ill-red-dress.cyclic.cloud/getfineamount')
+        .get("https://ill-red-dress.cyclic.cloud/getfineamount")
         .then((response) => setfineamount(response.data));
     } catch (error) {
       console.log(error);
     }
   };
-  
 
   useEffect(() => {
     getstudents();
